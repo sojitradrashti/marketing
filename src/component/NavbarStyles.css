@@ -1,6 +1,8 @@
+html body{
+  overflow-x: hidden;
+}
 .navbar-items {
   display: flex;
-  position: fixed;
   justify-content: space-between;
   align-items: center;
   padding: 0px 30px;
@@ -12,10 +14,11 @@
   top: 20px;
   left: 50%;
   transform: translate(-50%);
+  background-color: #fff;
+  z-index: 99;
 }
 .img img{
     width: 30%;
-    
     margin: 10px;
 }
 .logo {
@@ -30,17 +33,19 @@
   grid-gap: 10px;
   align-items: center;
   padding-right: 0px;
+  
 }
 .nav-links {
   text-align: center;
   text-decoration: none;
-  color: #222;
   font-size: 1.2rem;
   font-weight: 60;
   padding: 0.7rem 1rem;
+  color: black;
+  font-weight: 500;
 }
 .nav-links:hover {
-  background-color: DodgerBlue;
+  background-color: grey;
   color: white;
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
@@ -72,6 +77,7 @@ button:hover {
 @media screen and (max-width: 850px) {
   .navbar-items {
     z-index: 99;
+
   }
   .nav-menu {
     display: flex;
@@ -81,10 +87,10 @@ button:hover {
     width: 100%;
     height: auto;
     position: absolute;
-    top: -0;
+    top: 0;
     left: -100%;
     opacity: 0;
-    align-items: stretch;
+    align-items:stretch;
     padding: 80px 0 30px 0;
     margin: 0;
     border-radius: 13px;
@@ -115,7 +121,7 @@ button:hover {
     margin: auto;
     border-radius: 4px;
     width:80%;
-    
+    text-decoration: none;
     list-style-type: none;
     background: #01959a;
     color:#fff;

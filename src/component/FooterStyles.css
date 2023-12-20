@@ -1,0 +1,19 @@
+.footer{
+    background-color: rgb(245,245,245);
+    color:black;
+}
+.logo{
+    width: 10%;
+    height: 10%;
+    margin-bottom: 5px;
+}
+.top{
+    margin-top:0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem 0 2rem;
+}
+.icons{
+    color:black;
+    margin-top: 5rem;
+}
