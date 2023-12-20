@@ -1,8 +1,13 @@
+import Footer from "../component/Footer";
+import Navbar from "../component/Navbar";
+import ContactForm from "../component/ContactForm";
 
 function Contact (){
     return(
         <>
-        <h1>This is contact</h1>
+        <Navbar/>
+        <ContactForm/>
+        <Footer/>
         </>
     )
 }

@@ -3,6 +3,9 @@ import Navbar from "../component/Navbar";
 import Hero from "../component/Hero";
 import Service from "./Service";
 import Footer from "../component/Footer";
+import Project from "../component/Project";
+import Contact from "../component/ContactForm";
+
 
 function Home (){
     return(
@@ -21,7 +24,8 @@ function Home (){
         //  buttonClass="show"
         
        />
-       <Service />
+       <Project/>
+       <Contact/>
        <Footer/>
         </>
     )

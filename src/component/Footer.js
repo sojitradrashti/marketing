@@ -5,21 +5,21 @@ const Footer = () => {
     <div className="footer">
       <div className="top">
         <div className="logo">
-          <img alt="logoimage" src="/assets/nnngo.png"/>
-        </div>
+          <img alt="logoimage" src="/assets/logo1.png"/>
+        
             <div className="icons">
-                <FaFacebook size={20} style={{color:"black", marginRight: "1rem"}}/>
-                <FaTwitter size={20} style={{color:"black", marginRight: "1rem"}}/>
-                <FaSkype size={20} style={{color:"black", marginRight: "1rem"}}/>
-                <FaLinkedin size={20} style={{color:"black", marginRight: "1rem"}}/>
-                <FaInstagram size={20} style={{color:"black", marginRight: "1rem"}}/>
-                 <FaPinterest size={20} style={{color:"black", marginRight: "1rem"}}/>
+                <FaFacebook size={20}/>
+                <FaTwitter size={20}/>
+                <FaSkype size={20} />
+                <FaLinkedin size={20}/>
+                <FaInstagram size={20}/>
+                <FaPinterest size={20} /> 
+            </div>
             </div>
           <div>
           <h4>Company</h4>
             <p>About Us</p>
-            <p>Servic</p>
-            <p>About</p>
+            <p>Service</p>
             <p>Contact Us</p>
           </div>
 
@@ -28,7 +28,7 @@ const Footer = () => {
               <p>Mobile App Development</p>
               <p>Website Development</p>
               <p>AI Development</p>
-              <p>Game Developmentes</p>
+              <p>Game Developmente</p>
             </div>
 
             <div>

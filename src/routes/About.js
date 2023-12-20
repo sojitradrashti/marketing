@@ -1,15 +1,15 @@
 import Navbar from "../component/Navbar";
 import Hero from "../component/Hero";
+import Footer from "../component/Footer";
+import Aboutus from "../component/Aboutus";
+
 function About (){
     return(
         <>
          <Navbar/>
-        <Hero
-         cName="hero-mid"
-         title1="A little"
-         title2="About Us"
-        
-         />
+        <Hero/>
+        <Aboutus/>
+         <Footer/>
         </>
     )
 }
