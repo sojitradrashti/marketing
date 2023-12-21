@@ -1,14 +1,14 @@
 import Navbar from "../component/Navbar";
 import Hero from "../component/Hero";
 import Footer from "../component/Footer";
-import Aboutus from "../component/Aboutus";
+import AboutUs from "../component/AboutUs";
 
 function About (){
     return(
         <>
          <Navbar/>
         <Hero/>
-        <Aboutus/>
+        <AboutUs/>
          <Footer/>
         </>
     )

@@ -1,0 +1,101 @@
+.about-container{
+    width: 80%;
+    height: 90%;
+}
+.slide img{
+    margin:2rem 4rem;
+    padding-left: 1rem;
+    width: 50%;
+    height: 50%;
+    padding: 25%;
+    /* border-radius: 50% 50% 50% 50%; */
+} 
+.slide .text{
+    margin-top : 5%;
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: start;
+}
+.slide{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap:15%;
+}
+.head h2{
+    margin-left: 20%;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10%;
+}
+.head h1{
+    text-align: center;
+    font-weight: 500;
+    margin-left: 20%;
+   font-size: 3rem;
+}
+.about-bottom{
+    height: 50%;
+    width: 100%;
+    
+        /* display: flex; */
+    /* justify-content: space-between; */
+    /* gap:5%; */
+}
+.state{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left :8%;
+    /* font-size: 2rem;  */
+    gap:30rem; 
+}  
+
+.about-bottom .text1{
+    padding: 1rem;
+
+        margin-left: 42rem;
+        font-size: 2rem;
+        font-weight: 200;
+    }
+@media screen and (max-width:850px) {
+     .about-container{
+        width: 100%;
+       
+     }
+    .slide img{
+        width: 50%;
+        height: 30%;
+        margin-left: 5%;
+        
+    }
+    .slide{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        gap:15%;
+    }
+    .slide .text{
+        margin-left : 3%;
+        font-size: 2rem;
+        font-weight: 300;
+        text-align: center;
+    }
+    .about-bottom .text1{
+        text-align: center;
+        font-size: 2rem;
+      margin-left: 2rem;
+    }
+    .head h2{
+        margin-top: 10vh;
+        text-align: center;
+       
+    }
+    .head h1{
+        text-align: center;
+       
+        margin-top: 10%;
+    }
+
+}

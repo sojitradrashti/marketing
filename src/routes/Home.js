@@ -5,6 +5,7 @@ import Service from "./Service";
 import Footer from "../component/Footer";
 import Project from "../component/Project";
 import Contact from "../component/ContactForm";
+import AboutUs from "../component/AboutUs";
 
 
 function Home (){
@@ -25,6 +26,7 @@ function Home (){
         
        />
        <Project/>
+       <AboutUs/>
        <Contact/>
        <Footer/>
         </>

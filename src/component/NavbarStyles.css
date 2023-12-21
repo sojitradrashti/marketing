@@ -18,7 +18,7 @@ html body{
   z-index: 99;
 }
 .img img{
-    width: 30%;
+    width: 15%;
     margin: 10px;
 }
 .logo {
@@ -38,7 +38,7 @@ html body{
 .nav-links {
   text-align: center;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 60;
   padding: 0.7rem 1rem;
   color: black;
@@ -111,9 +111,9 @@ button:hover {
     background: #01959a;
     transition: none;
   }
-  button {
+  /* button {
     display: none;  
-  }
+  } */
   .nav-links-mobile{
     display: block;
     text-align: center;
@@ -132,6 +132,10 @@ button:hover {
   .menu-icons{
     display: block;
   }
+  .img img{
+    width: 25%;
+  }
+  
   .menu-icons i{
     font-size: 1.2rem;
     color:#222;
