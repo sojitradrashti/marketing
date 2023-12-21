@@ -53,4 +53,7 @@
         font-size: 2rem;
         text-align: center;
     }
+    .form-container button{
+        margin-left: 28%;
+    }
 }

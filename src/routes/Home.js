@@ -14,7 +14,7 @@ function Home (){
         <Navbar/>
         <Hero
          cName="hero"
-         heroImg="/assets/2.jpg"
+        heroImg="/assets/2.jpg"
          title1="Where idea"
          title2="turns into"
          title3="Reality."

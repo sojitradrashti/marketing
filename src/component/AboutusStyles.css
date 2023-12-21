@@ -54,7 +54,7 @@
 .about-bottom .text1{
     padding: 1rem;
 
-        margin-left: 42rem;
+        margin-left: 32rem;
         font-size: 2rem;
         font-weight: 200;
     }
@@ -88,6 +88,7 @@
       margin-left: 2rem;
     }
     .head h2{
+        /* margin-left: 20vh; */
         margin-top: 10vh;
         text-align: center;
        

@@ -1,5 +1,6 @@
 html body{
   overflow-x: hidden;
+  
 }
 .navbar-items {
   display: flex;
@@ -15,11 +16,12 @@ html body{
   left: 50%;
   transform: translate(-50%);
   background-color: #fff;
-  z-index: 99;
+  z-index: 9999;
 }
-.img img{
+.navbar-items img{
     width: 15%;
     margin: 10px;
+    left:15%;
 }
 .logo {
   color: #222;
@@ -32,14 +34,14 @@ html body{
   list-style-type: none;
   grid-gap: 10px;
   align-items: center;
-  padding-right: 0px;
+  /* padding-right: 0; */
   
 }
 .nav-links {
   text-align: center;
   text-decoration: none;
   font-size: 1.5rem;
-  font-weight: 60;
+  font-weight: 600;
   padding: 0.7rem 1rem;
   color: black;
   font-weight: 500;
@@ -50,25 +52,10 @@ html body{
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
 }
-.nav-links-mobile {
+/* .nav-links-mobile {
   display: none;
-}
-/* button {
-  padding: 0.5rem 1rem;
-  white-space: nowrap;
-  border-radius: 0.3rem;
-  font-size: 1rem;
-  font-weight: 300;
-  cursor: pointer;
-  background-color: dodgerblue;
-  transition: 0.2s ease-in-out;
-  
-}
-button:hover {
-  background-color: darkblue;
-  color: white;
-  border-radius: 25px;
-}  */
+} */
+
 .menu-icons{
     display: none;
   }
@@ -84,7 +71,7 @@ button:hover {
     flex-direction: column;
     justify-content: flex-start;
     background-color: white;
-    width: 100%;
+    width:100%;
     height: auto;
     position: absolute;
     top: 0;
@@ -111,9 +98,7 @@ button:hover {
     background: #01959a;
     transition: none;
   }
-  /* button {
-    display: none;  
-  } */
+ 
   .nav-links-mobile{
     display: block;
     text-align: center;
@@ -132,8 +117,8 @@ button:hover {
   .menu-icons{
     display: block;
   }
-  .img img{
-    width: 25%;
+  .navbar-items img{
+    width: 20%;
   }
   
   .menu-icons i{
