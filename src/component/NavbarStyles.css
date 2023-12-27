@@ -1,12 +1,15 @@
 html body{
   overflow-x: hidden;
+  /* position: fixed; */
+  /* object-fit: cover; */
+  
   
 }
 .navbar-items {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 30px;
+  padding: 5px 30px;
   box-shadow: 0 5px 15px 0 rgb(0, 0, 0, 0.25);
   width: 95%;
   height: 80px;
@@ -29,8 +32,8 @@ html body{
   cursor: pointer;
 }
 .nav-menu {
-  display: grid;
-  grid-template-columns: repeat(5, auto);
+  display: flex;
+  grid-template-columns: repeat(5,auto);
   list-style-type: none;
   grid-gap: 10px;
   align-items: center;
@@ -61,9 +64,12 @@ html body{
   }
 
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1000px) {
   .navbar-items {
     z-index: 99;
+    width: 75%;
+    position: fixed;
+
 
   }
   .nav-menu {
@@ -105,7 +111,7 @@ html body{
     padding: 1.5rem;
     margin: auto;
     border-radius: 4px;
-    width:80%;
+    width:70% ;
     text-decoration: none;
     list-style-type: none;
     background: #01959a;
@@ -119,6 +125,8 @@ html body{
   }
   .navbar-items img{
     width: 20%;
+    position: relative;
+    padding: 0;
   }
   
   .menu-icons i{

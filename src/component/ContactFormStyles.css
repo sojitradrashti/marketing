@@ -40,7 +40,7 @@
 .form-container button:hover{
     background-color: darkblue;
 }
-@media screen and (max-width:850px) {
+@media screen and (max-width:1000px) {
     .form-container{
         margin:4rem 2rem;
     }
